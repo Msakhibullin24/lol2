@@ -1,0 +1,48 @@
+.brand-link {
+    text-align: center;
+}
+
+[class*=sidebar-dark-] {
+    background-color: #f4f6f9;
+}
+
+.font-weight-light {
+    font-weight: 900!important;
+}
+
+[class*=sidebar-dark] .brand-link, [class*=sidebar-dark] .brand-link .pushmenu {
+    color: rgb(255 0 0 / 80%);
+}
+
+.nav-sidebar .nav-item>.nav-link {
+    position: relative;
+    color: #007bff;
+}
+
+.sidebar-dark-primary .nav-sidebar>.nav-item>.nav-link:hover, .sidebar-light-primary .nav-sidebar>.nav-item>.nav-link:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.content-header {
+    padding: 0px 0.5rem;
+}
+
+label:not(.form-check-label):not(.custom-file-label) {
+    font-weight: 100!important;
+}
+
+
+.advantage_descriptions {
+    display: block;
+    width: -webkit-fill-available;
+    height: 200px;
+	border-color:#ccc;
+	outline: #007bff;
+}
+
+
+
+.brand-logo {
+    width: 50px;
+}

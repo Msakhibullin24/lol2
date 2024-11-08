@@ -1,0 +1,318 @@
+Start fetching updates...
+(Exit with Ctrl + C)
+Start fetching updates...
+(Exit with Ctrl + C)
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+
+   Longman\TelegramBot\Exception\InvalidBotTokenException 
+
+  Invalid bot token!
+
+  at vendor/longman/telegram-bot/src/Request.php:722
+    718▕ 
+    719▕         $response = new ServerResponse($response, $bot_username);
+    720▕ 
+    721▕         if (!$response->isOk() && $response->getErrorCode() === 401 && $response->getDescription() === 'Unauthorized') {
+  ➜ 722▕             throw new InvalidBotTokenException();
+    723▕         }
+    724▕ 
+    725▕         // Special case for sent polls, which need to be saved specially.
+    726▕         // @todo Take into account if DB gets extracted into separate module.
+
+      [2m+26 vendor frames [22m
+  27  artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+
+   Longman\TelegramBot\Exception\InvalidBotTokenException 
+
+  Invalid bot token!
+
+  at vendor/longman/telegram-bot/src/Request.php:722
+    718▕ 
+    719▕         $response = new ServerResponse($response, $bot_username);
+    720▕ 
+    721▕         if (!$response->isOk() && $response->getErrorCode() === 401 && $response->getDescription() === 'Unauthorized') {
+  ➜ 722▕             throw new InvalidBotTokenException();
+    723▕         }
+    724▕ 
+    725▕         // Special case for sent polls, which need to be saved specially.
+    726▕         // @todo Take into account if DB gets extracted into separate module.
+
+      [2m+26 vendor frames [22m
+  27  artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+0 Start fetching updates...
+(Exit with Ctrl + C)
+PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 58515392 bytes) in /var/www/html/theoda/vendor/longman/telegram-bot/src/TelegramLog.php on line 105
+
+   Symfony\Component\ErrorHandler\Error\FatalError 
+
+  Allowed memory size of 134217728 bytes exhausted (tried to allocate 58515392 bytes)
+
+  at vendor/longman/telegram-bot/src/TelegramLog.php:105
+    101▕             rewind(self::$debug_log_temp_stream_handle);
+    102▕             $stream_contents = stream_get_contents(self::$debug_log_temp_stream_handle);
+    103▕ 
+    104▕             if (self::$remove_bot_token) {
+  ➜ 105▕                 $stream_contents = preg_replace('/\/bot(\d+):[\w\-]+\//', '/botBOT_TOKEN_REMOVED/', $stream_contents);
+    106▕             }
+    107▕ 
+    108▕             self::debug(sprintf($message, $stream_contents));
+    109▕             fclose(self::$debug_log_temp_stream_handle);
+
+
+   Whoops\Exception\ErrorException 
+
+  Allowed memory size of 134217728 bytes exhausted (tried to allocate 58515392 bytes)
+
+  at vendor/longman/telegram-bot/src/TelegramLog.php:105
+    101▕             rewind(self::$debug_log_temp_stream_handle);
+    102▕             $stream_contents = stream_get_contents(self::$debug_log_temp_stream_handle);
+    103▕ 
+    104▕             if (self::$remove_bot_token) {
+  ➜ 105▕                 $stream_contents = preg_replace('/\/bot(\d+):[\w\-]+\//', '/botBOT_TOKEN_REMOVED/', $stream_contents);
+    106▕             }
+    107▕ 
+    108▕             self::debug(sprintf($message, $stream_contents));
+    109▕             fclose(self::$debug_log_temp_stream_handle);
+
+      [2m+1 vendor frames [22m
+  2   [internal]:0
+      Whoops\Run::handleShutdown()
+0 Start fetching updates...
+(Exit with Ctrl + C)
+
+   TypeError 
+
+  count(): Argument #1 ($value) must be of type Countable|array, null given
+
+  at vendor/php-telegram-bot/laravel/src/Console/Commands/TelegramFetchCommand.php:71
+     67▕ 				
+     68▕ 				//$this->info($response->result);
+     69▕ 				
+     70▕ 				
+  ➜  71▕ 				if(count($response->result)>0){
+     72▕ 					$chat_id = $response->result[0]->raw_data['message']['chat']['id'];
+     73▕ 					\DB::table('bot_chat')->where('id', '=', $chat_id)->update(['status_chat' => 1]);
+     74▕ 				}
+     75▕                 if ($response !== null && ! $response->isOk()) {
+
+      [2m+14 vendor frames [22m
+  15  artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()

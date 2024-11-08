@@ -1,0 +1,227 @@
+.reestr td {
+    padding-bottom: 10px;
+    padding-top: 5px;
+    color: #fff;
+}
+
+.blog-content .blog h3 {
+    font-weight: 400;
+    font-size: x-large;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    color: #91bfe9!important;
+    line-height: 1;
+}
+
+.part2 .blog h3 {
+    font-weight: 400;
+    font-size: revert;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    color: #91bfe9!important;
+    line-height: 1;
+}
+
+.blog-content .blog {
+    width: 50%;
+    height: fit-content;
+    padding: 0;
+    text-align: left;
+    padding-bottom: 45px;
+    padding-right: 20px;
+    /* border-left: 2px solid #ccc; */
+}
+.part2 .blog {
+    padding: 0;
+    text-align: left;
+    padding-bottom: 45px;
+    /* border-left: 2px solid #ccc; */
+}
+
+.part2  {
+    background: #16304ae8;
+    margin-bottom: 45px;
+}
+
+.blog-content {
+    background: #ffffffe8;
+    margin-bottom: 45px;
+}
+
+.pagination
+{
+    width: max-content;
+    display: inline-flex;
+}
+
+.more {
+    background: #0165bf;
+    border-color: #0165bf;
+    border-radius: 5px;
+    display: table;
+    right: 0px;
+    float: right;
+    margin-top: 10px;
+}
+
+a.title_more {
+    color: #91bfe9!important;
+}	
+
+
+a.title_more2 {
+    color: #000!important;
+}	
+
+.created {
+    color: #a3bfdf;
+    font-size: smaller;
+    /* background: #465e78; */
+    width: fit-content;
+    padding-left: 20px;
+    padding-right: 5px;
+    /* border-radius: 10px; */
+    float: right;
+    border-left: 2px solid #a3bfdf;
+}
+
+#content p{
+    text-indent: 30px;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+.btn-up {
+  /* фиксированное позиционирование */
+  position: fixed;
+  /* цвет фона */
+  background-color: #0165bf;
+  /* расстояние от правого края окна браузера */
+  left: 20px;
+  /* расстояние от нижнего края окна браузера */
+  bottom: 0;
+  /* скругление верхнего левого угла */
+  border-top-left-radius: 8px;
+  /* скругление верхнего правого угла */
+  border-top-right-radius: 8px;
+  /* вид курсора */
+  cursor: pointer;
+  /* отображение элемента как flex */
+  display: flex;
+  /* выравниваем элементы внутри элемента по центру вдоль поперечной оси */
+  align-items: center;
+  /* выравниваем элементы внутри элемента по центру вдоль главной оси */
+  justify-content: center;
+  /* ширина элемента */
+  width: 100px;
+  /* высота элемента */
+  height: 40px;
+}
+
+.btn-up::before {
+  content: "";
+  width: 40px;
+  height: 40px;
+  background: transparent no-repeat center center;
+  background-size: 100% 100%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%23fff' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z'/%3E%3C/svg%3E");
+}
+
+.btn-up_hide {
+  display: none;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .btn-up:hover {
+    background-color: #0165bf; /* цвет заднего фона при наведении */
+  }
+}
+
+    .payform-tinkoff {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin: 2px auto;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        max-width: 250px;
+    }
+    .payform-tinkoff-row {
+        margin: 2px;
+        border-radius: 4px;
+        -webkit-box-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        -webkit-transition: 0.3s;
+        -o-transition: 0.3s;
+        transition: 0.3s;
+        border: 1px solid #DFE3F3;
+        padding: 15px;
+        outline: none;
+        background-color: #DFE3F3;
+        font-size: 15px;
+    }
+    .payform-tinkoff-row:focus {
+        background-color: #FFFFFF;
+        border: 1px solid #616871;
+        border-radius: 4px;
+    }
+    .payform-tinkoff-btn {
+        background-color: #FBC520;
+        border: 1px solid #FBC520;
+        color: #3C2C0B;
+    }
+    .payform-tinkoff-btn:hover {
+        background-color: #FAB619;
+        border: 1px solid #FAB619;
+    }
+	
+	
+	
+
+@media (min-width:1025px) {
+	.part2 .blog {
+		width: 50%;
+		padding: 0;
+		text-align: left;
+		padding-right: 25px;
+		/* border-left: 2px solid #ccc; */
+	}
+
+.part2 .blog h3 {
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    color: #91bfe9!important;
+    line-height: 1;
+}
+}
+
+
+.nav-1, .nav-3 {
+    width: 300px;
+}
+
+.hover\:border-gray-300:hover {
+    --tw-border-opacity: 1;
+    border:none;
+}

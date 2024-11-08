@@ -1,0 +1,63 @@
+<x-guest-layout>
+                <div class="">
+                    <div class="grid grid-cols-1 md:grid-cols-2">
+                        <div class="p-6">
+                            <div class="flex items-center">
+                                <img src="/img/0.png">
+                                <div class="ml-4 text-lg leading-7 font-semibold"><h4>Регистрация авторского права на произведение</h4></div>
+                            </div>
+
+                            <div class="ml-12">
+                                <div class="mt-2 text-gray-300 dark:text-gray-300 text-sm">
+                                    Официальное подтверждение номера, даты и содержания авторской работы. Используется для подачи судебного иска, в случае нарушения авторских прав или при плагиате.
+                                </div>
+								<a type="button" class="order inline-flex items-center px-4 py-2 bg-gray-800 border border-transparent rounded-md font-semibold text-xs text-white uppercase tracking-widest  focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 dark:focus:ring-offset-gray-800 transition ease-in-out duration-150 ml-3 mt-3" href="{{ url('/orders/create/book') }}">Оставить заявку</a>
+                            </div>
+                        </div>
+
+                        <div class="p-6 border-t border-gray-200 dark:border-gray-700 md:border-t-0 md:border-l">
+                            <div class="flex items-center">
+                                <img src="/img/1.png">
+                                <div class="ml-4 text-lg leading-7 font-semibold"><h4>Регистрация программы для ЭВМ</h4></div>
+                            </div>
+
+                            <div class="ml-12">
+                                <div class="mt-2 text-gray-300 dark:text-gray-300 text-sm">
+                                    Внесение программы для ЭВМ или базы данных в соответствующий Реестр, направление (выдача) свидетельства, публикация сведений о зарегистрированной программе для ЭВМ или базы данных в официальном бюллетене Роспатента.
+                                </div>
+								<a type="button" class="order inline-flex items-center px-4 py-2 bg-gray-800 border border-transparent rounded-md font-semibold text-xs text-white uppercase tracking-widest  focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 dark:focus:ring-offset-gray-800 transition ease-in-out duration-150 ml-3 mt-3" href="{{ url('/orders/create/po') }}">Оставить заявку</a>
+                            </div>
+                        </div>
+
+                        <div class="p-6 border-t border-gray-200 dark:border-gray-700">
+                            <div class="flex items-center">
+                                <img src="/img/2.png">
+                                <div class="ml-4 text-lg leading-7 font-semibold"><h4>Регистрация промышленного образца</h4></div>
+                            </div>
+
+                            <div class="ml-12">
+                                <div class="mt-2 text-gray-300 dark:text-gray-300 text-sm">
+                                    Государственная регистрация промышленного образца и выдача патента на промышленный образец, его дубликата.
+                                </div>
+								<a type="button" class="order inline-flex items-center px-4 py-2 bg-gray-800 border border-transparent rounded-md font-semibold text-xs text-white uppercase tracking-widest  focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 dark:focus:ring-offset-gray-800 transition ease-in-out duration-150 ml-3 mt-3" href="{{ url('/orders/create/prom') }}">Оставить заявку</a>
+                            </div>
+                        </div>
+
+                        <div class="p-6 border-t border-gray-200 dark:border-gray-700 md:border-l">
+                            <div class="flex items-center">
+                                <img src="/img/3.png">
+                                <div class="ml-4 text-lg leading-7 font-semibold"><h4>Регистрация товарного знака</h4></div>
+                            </div>
+
+                            <div class="ml-12">
+                                <div class="mt-2 text-gray-300 dark:text-gray-300 text-sm">
+                                    Товарный знак (знак обслуживания) – это обозначение, служащее для индивидуализации товаров, выполняемых работ или оказываемых услуг.
+                                </div>
+								<a type="button" class="order inline-flex items-center px-4 py-2 bg-gray-800 border border-transparent rounded-md font-semibold text-xs text-white uppercase tracking-widest  focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 dark:focus:ring-offset-gray-800 transition ease-in-out duration-150 ml-3 mt-3" href="{{ url('/orders/create/tz') }}">Оставить заявку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+				
+</x-guest-layout>
